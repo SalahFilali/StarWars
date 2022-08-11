@@ -1,0 +1,36 @@
+## Note: all of the config entries below are just examples with placeholders. Be sure to edit and adjust to your needs when uncommenting.
+input_dir: ${TARGET_NAME}/Resources/
+output_dir: ${TARGET_NAME}/Resources/SwiftGen/
+
+strings:
+    inputs: en.lproj/Localizable.strings
+    outputs:
+      - templateName: structured-swift5
+        output: Strings+Generated.swift
+        params:
+            enumName: Strings
+
+
+xcassets:
+    inputs: Assets.xcassets
+    outputs:
+      - templateName: swift5
+        output: XCAssets+Generated.swift
+        params:
+            ignoreTargetModule: false
+            publicAccess: public
+            forceProvidesNamespaces: true
+            enumName: Assets
+            bundle: Bundle.main
+
+
+fonts:
+    inputs: Fonts
+    outputs:
+      - templateName: swift5
+        output: Fonts+Generated.swift
+        params:
+            ignoreTargetModule: false
+            enumName: Fonts
+            publicAccess: public
+            bundle: Bundle.main

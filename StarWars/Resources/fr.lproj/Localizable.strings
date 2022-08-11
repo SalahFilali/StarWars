@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  StarWars
+
+  Created by Salah Filali on 21/01/2022.
+  
+*/
+//MARK: - Nav Bar
+"back-button.title" = "Retour";
+"movies-screen.title" = "Star Wars";
+
+//MARK: - Header Items
+"Total-Movies.format" = "Total %d movies";
+"refresh-loading.title" = "Loading...";
+
+//MARK: - Movie attribute
+"director.title" = "Director";
+"producer.title" = "Producer";
+"opening-craw.title" = "Opening craw";
+
+//MARK: - Dates Items
+"release-date.title" = "Release date";
+"created-at.title" = "Created";
+"edited-at.title" = "Edited";
+
+//MARK: - Errors
+"internal-error.title" = "Oups!";
+"internal-error.text" = "Sorry, we ran into an unexpected error.\nPlease try again.";
+
+"network-error.title" = "Network Problem";
+"network-error.text" = "Please check your network connection.";
+
+"ok-button.title" = "Ok";
